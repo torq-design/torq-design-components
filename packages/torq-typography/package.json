@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/torq-design/torq-design-components/issues"
   },
-  "homepage": "https://github.com/torq-design/torq-design-components#readme"
+  "homepage": "https://github.com/torq-design/torq-design-components#readme",
+  "gitHead": "a4b4240038e94400e15e59f4cf21a8a3aed0522b",
+  "publishConfig": {
+    "access": "public"
+  }
 }
