@@ -11,6 +11,8 @@
     "url": "git+https://github.com/torq-design/torq-design-components.git"
   },
   "keywords": [
+    "torq",
+    "torq-design",
     "typography"
   ],
   "author": "Alexander Patton",
