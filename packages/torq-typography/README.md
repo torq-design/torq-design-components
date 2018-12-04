@@ -1,6 +1,7 @@
 # Typography
 
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![npm version](https://badge.fury.io/js/%40torq-design%2Ftypography.svg)](https://badge.fury.io/js/%40torq-design%2Ftypography)
 
 This package imports Heebo (the chosen font for Torq Design) and sets it as the default font.  It also defines a set of font profiles and the default sizes, weights, etc. for those profiles.
 
