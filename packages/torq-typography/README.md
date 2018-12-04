@@ -39,7 +39,7 @@ Install the typography component in your project using npm.
 
 Import the SCSS file into your base styling file.
 
-```@import "@torq-design/torq-typography";```
+```@import "@torq-design/typography/torq-typography";```
 
 Make sure your project's SASS compiler is configured to look in the node_modules directory.
 
