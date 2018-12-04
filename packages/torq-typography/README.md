@@ -7,17 +7,17 @@ This package imports Heebo (the chosen font for Torq Design) and sets it as the 
 
 #### Font Profiles
 
-| SCALE CATEGORY | HTML TAG             | CSS CLASS                    | USAGE               | FONT    | SIZE | TRACKING | LINE HEIGHT |
-| :------------: | :------------------  | :--------------------------  | :-----------------  | :-----: | :--: | :------: | :---------: |
-| H1             | `<h1>`               | `torq-typ--h1`               | Widgets             | Regular | 50px | Auto     | Auto        |
-| H2             | `<h2>`               | `torq-typ--h2`               | Widgets             | Regular | 38px | Auto     | Auto        |
-| H3             | `<h3>`               | `torq-typ--page-header`      | Page Headers        | Regular | 24px | 0        | 35px        |
-| H4             | `<h4>`               | `torq-typ--section-header`   | Section Header      | Bold    | 20px | Auto     | 29px        |
-| H5             | `<h5>`               | `torq-typ--title1`           | Title 1             | Bold    | 18px | Auto     | 27px        |
-| H6             | `<h6>`               | `torq-typ--title2`           | Title 2             | Bold    | 15px | Auto     | 26px        |
-| Body 1         | `<body>`, `<button>` | `torq-typ--body1`            | Body Copy & Buttons | Medium  | 15px | 0        | 26px        |
-| Body 2         |                      | `torq-typ--body2`            | Body Copy & Buttons | Light   | 15px | 0        | 26px        |
-| Charts         |                      | `torq-typ--chart-title`      | Chart Titles        | Medium  | 13px | 0.13px   | 40px        |
+| SCALE CATEGORY | HTML TAG                    | CSS CLASS                    | USAGE               | FONT    | SIZE | TRACKING | LINE HEIGHT |
+| :------------: | :-------------------------  | :--------------------------  | :-----------------  | :-----: | :--: | :------: | :---------: |
+| H1             | `<h1>`                      | `torq-typ--h1`               | Widgets             | Regular | 50px | Auto     | Auto        |
+| H2             | `<h2>`                      | `torq-typ--h2`               | Widgets             | Regular | 38px | Auto     | Auto        |
+| H3             | `<h3>`                      | `torq-typ--page-header`      | Page Headers        | Regular | 24px | 0        | 35px        |
+| H4             | `<h4>`                      | `torq-typ--section-header`   | Section Header      | Bold    | 20px | Auto     | 29px        |
+| H5             | `<h5>`                      | `torq-typ--title1`           | Title 1             | Bold    | 18px | Auto     | 27px        |
+| H6             | `<h6>`                      | `torq-typ--title2`           | Title 2             | Bold    | 15px | Auto     | 26px        |
+| Body 1         | `<body>`, `<p>`, `<button>` | `torq-typ--body1`            | Body Copy & Buttons | Medium  | 15px | 0        | 26px        |
+| Body 2         |                             | `torq-typ--body2`            | Body Copy & Buttons | Light   | 15px | 0        | 26px        |
+| Charts         |                             | `torq-typ--chart-title`      | Chart Titles        | Medium  | 13px | 0.13px   | 40px        |
 
 
 #### Available font weights
