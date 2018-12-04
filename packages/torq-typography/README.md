@@ -5,6 +5,8 @@
 
 This package imports Heebo (the chosen font for Torq Design) and sets it as the default font.  It also defines a set of font profiles and the default sizes, weights, etc. for those profiles.
 
+[Demo in StackBlitz](https://stackblitz.com/edit/torq-typography-demo)
+
 #### Font Profiles
 
 | SCALE CATEGORY | HTML TAG             | CSS CLASS                    | USAGE               | FONT    | SIZE | TRACKING | LINE HEIGHT |
@@ -61,7 +63,3 @@ This can also be achieved through the use of the CSS classes.
 Adjust font weights using the available CSS classes.
 
 ```<div class="weight--extra-bold">This is some extra bold text.</div>```
-
-## Demo
-
-<iframe src="https://stackblitz.com/edit/torq-typography-demo?embed=1&file=src/app/app.component.html" style="width: 96%; margin-left: 2%; height: 500px;"></iframe>
