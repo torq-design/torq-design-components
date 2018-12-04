@@ -1,0 +1,22 @@
+{
+  "name": "@torq-design/typography",
+  "version": "0.0.0",
+  "description": "Base typography for Torq Design",
+  "main": "torq-typography.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torq-design/torq-design-components.git"
+  },
+  "keywords": [
+    "typography"
+  ],
+  "author": "Alexander Patton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torq-design/torq-design-components/issues"
+  },
+  "homepage": "https://github.com/torq-design/torq-design-components#readme"
+}

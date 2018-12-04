@@ -1,0 +1,126 @@
+//
+// Copyright 2018 GE Transportation
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+//
+
+@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800');
+
+$torq-typ--font-family: "Heebo", sans-serif !default;
+$mdc-typography-font-family: $torq-typ--font-family;
+
+html {
+  font-family: $torq-typ--font-family;
+}
+.torq-typ {
+  font-family: $torq-typ--font-family;
+}
+
+//================================================================================
+// Standard Torq Typography Rules
+//================================================================================
+//Widgets
+h1, .torq-typ--h1 {
+  font-size: 50px;
+  font-weight: 400!important; //regular
+}
+//Widgets
+h2, .torq-typ--h2 {
+  font-size: 38px;
+  font-weight: 400!important; //regular
+}
+
+//Page Headers
+h3, .torq-typ--page-header {
+  font-size: 24px;
+  font-weight: 400!important; //regular
+  line-height: 35px;
+  letter-spacing: 0;
+}
+
+//Section Headers
+h4, .torq-typ--section-header {
+  font-size: 20px;
+  font-weight: 700!important; //bold
+  line-height: 29px;
+}
+
+//Title 1
+h5, .torq-typ--title1 {
+  font-size: 18px;
+  font-weight: 700!important; //bold
+  line-height: 27px;
+}
+
+//Title 2
+h6, .torq-typ--title2 {
+  font-size: 15px;
+  font-weight: 700!important; //bold
+  line-height: 26px;
+}
+
+//Body Copy & Buttons
+body, button, .torq-typ--body1 {
+  font-size: 15px;
+  font-weight: 500!important; //medium
+  line-height: 26px;
+}
+
+//Sub-Body Copy
+.torq-typ--body2 {
+  font-size: 15px;
+  font-weight: 300!important; //light
+  line-height: 26px;
+}
+
+//Chart Titles
+.torq-typ--chart-title {
+  font-size: 13px;
+  font-weight: 500!important; //medium
+  line-height: 40px;
+  letter-spacing: 0.13px;
+}
+
+:host {
+  font-family: $torq-typ--font-family;
+}
+
+//================================================================================
+// Font Weight Classes
+//================================================================================
+
+.weight--light {
+  font-weight: 300!important;
+}
+
+.weight--regular {
+  font-weight: 400!important;
+}
+
+.weight--medium {
+  font-weight: 500!important;
+}
+
+.weight--bold {
+  font-weight: 700!important;
+}
+
+.weight--extra-bold {
+  font-weight: 800!important;
+}
