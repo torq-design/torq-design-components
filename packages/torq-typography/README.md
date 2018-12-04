@@ -64,11 +64,4 @@ Adjust font weights using the available CSS classes.
 
 ## Demo
 
-<style>
-	iframe {
-    	width: 96%;
-        margin-left: 2%;
-        height: 500px;
-    }
-</style>
-<iframe src="https://stackblitz.com/edit/torq-typography-demo?embed=1&file=src/app/app.component.html"></iframe>
+<iframe src="https://stackblitz.com/edit/torq-typography-demo?embed=1&file=src/app/app.component.html" style="width: 96%; margin-left: 2%; height: 500px;"></iframe>
