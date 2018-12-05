@@ -1,8 +1,8 @@
 {
-  "name": "@torq-design/typography",
-  "version": "0.1.0",
-  "description": "Base typography for Torq Design",
-  "main": "torq-typography.scss",
+  "name": "@torq-design/colors",
+  "version": "0.0.0",
+  "description": "Color palette for Torq Design",
+  "main": "torq-colors.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,7 @@
   "keywords": [
     "torq",
     "torq-design",
-    "typography"
+    "color"
   ],
   "author": "General Electric",
   "license": "MIT",
@@ -21,7 +21,6 @@
     "url": "https://github.com/torq-design/torq-design-components/issues"
   },
   "homepage": "https://github.com/torq-design/torq-design-components#readme",
-  "gitHead": "a4b4240038e94400e15e59f4cf21a8a3aed0522b",
   "publishConfig": {
     "access": "public"
   }

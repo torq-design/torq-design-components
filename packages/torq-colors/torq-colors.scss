@@ -1,0 +1,89 @@
+//
+// Copyright 2018 General Electric
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+//
+
+//=================================================================================================================
+// Best Practices
+//=================================================================================================================
+// Use Primary colors for their specific uses. 
+// For action items and other items of importance, please use default blue.
+// Do not put text on top of supporting colors.
+
+$torq-primary-color: #508BE4;
+
+//=================================================================================================================
+// Dark UI
+//=================================================================================================================
+//Main Background
+$torq-dark-background-top: #1A2633;
+$torq-dark-background-bottom: #101820;
+$torq-dark-background: linear-gradient(185.86deg, $torq-dark-background-top 0%, $torq-dark-background-bottom 100%);
+
+//Additional Backgrounds
+$torq-dark-title-bar-background: #151E26;
+$torq-dark-top-bar-background: #1D2E40;
+$torq-dark-card-background: $torq-dark-top-bar-background;
+$torq-dark-outline: #66757F;
+
+//Text
+$torq-dark-text-color: #FFFFFF;
+$torq-dark-header-text-color: $torq-dark-text-color;
+$torq-dark-subtext-color: #A8B5BF;
+$torq-dark-chart-text-color: $torq-dark-subtext-color;
+
+
+//=================================================================================================================
+// Light UI
+//=================================================================================================================
+//Main Background
+$torq-light-background-top: #F7F9FB;
+$torq-light-background-bottom: #D6DFEC;
+$torq-light-background: linear-gradient(176.98deg, $torq-light-background-top 0%, $torq-light-background-bottom 100%);
+
+//Additional Backgrounds
+$torq-light-title-bar-background: #FFFFFF;
+$torq-light-card-background: $torq-light-title-bar-background;
+$torq-light-top-bar-background: #F7F7FB;
+$torq-light-outline: #C7D4DD;
+
+//Text
+$torq-light-header-text-color: #202028;
+$torq-light-text-color: #2C404C;
+$torq-light-subtext-color: #596578;
+$torq-light-chart-text-color: $torq-light-subtext-color;
+
+//=================================================================================================================
+// Supporting Colors
+//=================================================================================================================
+//Status
+$torq-status-red: #F34336;
+$torq-status-orange: #FF8B3A;
+$torq-status-yellow: #FEC600;
+$torq-status-green: #7FAE1B;
+$torq-status-blue: $torq-primary-color;
+
+//Data Viz
+$torq-data-pink: #F97DD8;
+$torq-data-purple: #9150E4;
+$torq-data-cyan: #50CCE4;
+$torq-data-green: #61D883;
+$torq-data-yellow: #E4CB50;
+$torq-data-orange: #E4A350;
