@@ -72,19 +72,19 @@ Supporting colors are the same for both dark and light UI.
 
 | Variable                            | Value     |
 | :---------------------------------  | :-------  |
-| `$torq-status-red`                  | #F34336   |
-| `$torq-status-orange`               | #FF8B3A   |
-| `$torq-status-yellow`               | #FEC600   |
-| `$torq-status-green`                | #7FAE1B   |
-| `$torq-status-blue`                 | #508BE4   |
+| `$torq-status-red`                  | `#F34336`   |
+| `$torq-status-orange`               | `#FF8B3A`   |
+| `$torq-status-yellow`               | `#FEC600`   |
+| `$torq-status-green`                | `#7FAE1B`  |
+| `$torq-status-blue`                 | `#508BE4`   |
 
 ### Data Visualization
 
-| Variable                            | Value     |
-| :---------------------------------  | :-------  |
-| `$torq-data-pink`                   | #F97DD8   |
-| `$torq-data-purple`                 | #9150E4   |
-| `$torq-data-cyan`                   | #50CCE4   |
-| `$torq-data-green`                  | #61D883   |
-| `$torq-data-yellow`                 | #E4CB50   |
-| `$torq-data-orange`                 | #E4A350   |
+| Variable                            | Value       |
+| :---------------------------------  | :---------  |
+| `$torq-data-pink`                   | `#F97DD8`   |
+| `$torq-data-purple`                 | `#9150E4`   |
+| `$torq-data-cyan`                   | `#50CCE4`   |
+| `$torq-data-green`                  | `#61D883`   |
+| `$torq-data-yellow`                 | `#E4CB50`   |
+| `$torq-data-orange`                 | `#E4A350`   |
