@@ -30,6 +30,26 @@
 $torq-primary-color: #508BE4;
 
 //=================================================================================================================
+// Light UI (Default)
+//=================================================================================================================
+//Main Background
+$torq-background-top: #F7F9FB;
+$torq-background-bottom: #D6DFEC;
+$torq-background: linear-gradient(176.98deg, $torq-background-top 0%, $torq-background-bottom 100%);
+
+//Additional Backgrounds
+$torq-title-bar-background: #FFFFFF;
+$torq-card-background: $torq-title-bar-background;
+$torq-top-bar-background: #F7F7FB;
+$torq-outline: #C7D4DD;
+
+//Text
+$torq-header-text-color: #202028;
+$torq-text-color: #2C404C;
+$torq-subtext-color: #596578;
+$torq-chart-text-color: $torq-subtext-color;
+
+//=================================================================================================================
 // Dark UI
 //=================================================================================================================
 //Main Background
@@ -49,26 +69,6 @@ $torq-dark-header-text-color: $torq-dark-text-color;
 $torq-dark-subtext-color: #A8B5BF;
 $torq-dark-chart-text-color: $torq-dark-subtext-color;
 
-
-//=================================================================================================================
-// Light UI
-//=================================================================================================================
-//Main Background
-$torq-light-background-top: #F7F9FB;
-$torq-light-background-bottom: #D6DFEC;
-$torq-light-background: linear-gradient(176.98deg, $torq-light-background-top 0%, $torq-light-background-bottom 100%);
-
-//Additional Backgrounds
-$torq-light-title-bar-background: #FFFFFF;
-$torq-light-card-background: $torq-light-title-bar-background;
-$torq-light-top-bar-background: #F7F7FB;
-$torq-light-outline: #C7D4DD;
-
-//Text
-$torq-light-header-text-color: #202028;
-$torq-light-text-color: #2C404C;
-$torq-light-subtext-color: #596578;
-$torq-light-chart-text-color: $torq-light-subtext-color;
 
 //=================================================================================================================
 // Supporting Colors

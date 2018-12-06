@@ -30,6 +30,22 @@ Import the SCSS file into your base styling file.
 
 Make sure your project's SASS compiler is configured to look in the node_modules directory.
 
+## Light UI
+| Variable                      | Uses                                 | Value     |
+| :---------------------------  | :----------------------------------  | :-------  |
+| `$torq-primary-color`         | Calls to action, items of importance | `#508BE4` |
+| `$torq-background-top`        | Start to dark background gradient    | `#F7F9FB` |
+| `$torq-background-bottom`     | End to dark background gradient      | `#D6DFEC` |
+| `$torq-background`            | Dark page background                 | `linear-gradient(176.98deg, #F7F9FB 0%, #D6DFEC 100%)` |
+| `$torq-title-bar-background`  | Title bar background                 | `#FFFFFF` |
+| `$torq-top-bar-background`    | Top bar background                   | `#F7F7FB` |
+| `$torq-card-background`       | Card background                      | `#FFFFFF` |
+| `$torq-outline`               | Outlines, table borders              | `#C7D4DD` |
+| `$torq-text-color`            | General purpose text                 | `#2C404C` |
+| `$torq-header-text-color`     | Header text                          | `#202028` |
+| `$torq-subtext-color`         | Sub-text                             | `#596578` |
+| `$torq-chart-text-color`      | Chart text                           | `#596578` |
+
 
 ## Dark UI
 | Variable                            | Uses                                 | Value     |
@@ -46,23 +62,6 @@ Make sure your project's SASS compiler is configured to look in the node_modules
 | `$torq-dark-header-text-color`      | Header text                          | `#FFFFFF` |
 | `$torq-dark-subtext-color`          | Sub-text                             | `#A8B5BF` |
 | `$torq-dark-chart-text-color`       | Chart text                           | `#A8B5BF` |
-
-
-## Light UI
-| Variable                            | Uses                                 | Value     |
-| :---------------------------------  | :----------------------------------  | :-------  |
-| `$torq-primary-color`               | Calls to action, items of importance | `#508BE4` |
-| `$torq-light-background-top`        | Start to dark background gradient    | `#F7F9FB` |
-| `$torq-light-background-bottom`     | End to dark background gradient      | `#D6DFEC` |
-| `$torq-light-background`            | Dark page background                 | `linear-gradient(176.98deg, #F7F9FB 0%, #D6DFEC 100%)` |
-| `$torq-light-title-bar-background`  | Title bar background                 | `#FFFFFF` |
-| `$torq-light-top-bar-background`    | Top bar background                   | `#F7F7FB` |
-| `$torq-light-card-background`       | Card background                      | `#FFFFFF` |
-| `$torq-light-outline`               | Outlines, table borders              | `#C7D4DD` |
-| `$torq-light-text-color`            | General purpose text                 | `#2C404C` |
-| `$torq-light-header-text-color`     | Header text                          | `#202028` |
-| `$torq-light-subtext-color`         | Sub-text                             | `#596578` |
-| `$torq-light-chart-text-color`      | Chart text                           | `#596578` |
 
 ## Supporting Colors
 
