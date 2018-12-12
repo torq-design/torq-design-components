@@ -18,9 +18,9 @@ Install the typography component in your project using npm.
 npm i @torq-design/typography
 ```
 
-#### Import SCSS
+#### Import Sass
 
-Import the SCSS file into your base styling file.
+Import the Sass file into your base styling file.
 
 ```css
 @import "@torq-design/typography/torq-typography";
@@ -54,6 +54,18 @@ Or, import the font in your base styling file.
 @import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800');
 ```
 
+#### Apply Base Font
+Use our base css class to make Heebo the default font.
+```html
+<body class="torq-typ">
+```
+Or, use the Sass mixin.
+```scss
+body {
+	@include torq-typ-base;
+}
+```
+
 ## Font Profiles
 | SCALE CATEGORY | HTML TAG                    | CSS CLASS                    | USAGE               | WEIGHT  | SIZE | TRACKING | LINE HEIGHT |
 | :------------: | :-------------------------  | :--------------------------  | :-----------------  | :-----: | :--: | :------: | :---------: |
@@ -83,18 +95,17 @@ Each font profile has an accompanying CSS class.
 <div class="torq-typ--section-header">This is also a section header.</div>
 ```
 
-#### SCSS Mixins
+#### Sass Mixins
 
-An SCSS mixin can also be used to apply the various font profiles. Use the same names from the css classes.
+A Sass mixin can also be used to apply the various font profiles. Use the same names from the css classes.
 ```scss
-@import @torq-design/typography/mixins;
-
 .custom-section-header {
   @include torq-typ(section-header);
 }
 ```
 
 ## Font Weights
+
 
 | Weight     | Value | CSS Class             |
 | :--------: | :---: | :-------------------: |
