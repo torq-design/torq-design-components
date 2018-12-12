@@ -33,11 +33,11 @@ Make sure your project's SASS compiler is configured to look in the node_modules
 We do offer a pre-compiled CSS version if your project doesn't use SCSS.
 
 ```html
-<link rel="stylesheet" href="../../node_modules/@torq-design/typography/torq-typography.css">
+<link rel="stylesheet" href="../../node_modules/@torq-design/typography/css/torq-typography.css">
 ```
 Or 
 ```css
-@import "../../node_modules/@torq-design/typography/torq-typography.css";
+@import "../../node_modules/@torq-design/typography/css/torq-typography.css";
 ```
 
 #### Import Font
