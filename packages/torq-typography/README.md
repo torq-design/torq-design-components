@@ -62,7 +62,7 @@ Use our base css class to make Heebo the default font.
 Or, use the Sass mixin.
 ```scss
 body {
-	@include torq-typ-base;
+  @include torq-typ-base;
 }
 ```
 
