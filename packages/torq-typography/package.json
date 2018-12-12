@@ -4,7 +4,7 @@
   "description": "Base typography for Torq Design",
   "main": "torq-typography.scss",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass torq-typography.scss torq-typography.css"
   },
   "repository": {
     "type": "git",
@@ -24,5 +24,8 @@
   "gitHead": "a4b4240038e94400e15e59f4cf21a8a3aed0522b",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "node-sass": "^4.11.0"
   }
 }

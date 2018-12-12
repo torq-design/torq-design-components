@@ -1,0 +1,93 @@
+//
+// Copyright 2018 General Electric
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included in
+// all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+// THE SOFTWARE.
+//
+
+$torq-typ--font-family: "Heebo", sans-serif !default;
+$mdc-typography-font-family: $torq-typ--font-family;
+
+$torq-typ-base: (
+  font-family: $torq-typ--font-family
+);
+
+$torq-typ-font-weight-values: (
+  light: 300,
+  regular: 400,
+  medium: 500,
+  bold: 700,
+  extra-bold: 800
+) !default;
+
+$torq-typ-styles: (
+  h1: (
+    font-size: 50px,
+    font-weight: map-get($torq-typ-font-weight-values, regular),
+    tags: (h1)
+  ),
+  h2: (
+    font-size: 38px,
+    font-weight: map-get($torq-typ-font-weight-values, regular),
+    tags: (h2)
+  ),
+  page-header: (
+    font-size: 24px,
+    font-weight: map-get($torq-typ-font-weight-values, regular),
+    line-height: 35px,
+    letter-spacing: 0,
+    tags: (h3)
+  ),
+  section-header: (
+    font-size: 20px,
+    font-weight: map-get($torq-typ-font-weight-values, bold),
+    line-height: 29px,
+    tags: (h4)
+  ),
+  title1: (
+    font-size: 18px,
+    font-weight: map-get($torq-typ-font-weight-values, bold),
+    line-height: 27px,
+    tags: (h5)
+  ),
+  title2: (
+    font-size: 15px,
+    font-weight: map-get($torq-typ-font-weight-values, bold),
+    line-height: 26px,
+    tags: (h6)
+  ),
+  body1: (
+    font-size: 15px,
+    font-weight: map-get($torq-typ-font-weight-values, medium),
+    line-height: 26px,
+    tags: (body, p, button)
+  ),
+  body2: (
+    font-size: 13px,
+    font-weight: map-get($torq-typ-font-weight-values, light),
+    line-height: 26px,
+    tags: ()
+  ),
+  chart-title: (
+    font-size: 13px,
+    font-weight: map-get($torq-typ-font-weight-values, medium),
+    line-height: 40px,
+    letter-spacing: 0.13px,
+    tags: ()
+  )
+)

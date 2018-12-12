@@ -28,6 +28,18 @@ Import the SCSS file into your base styling file.
 
 Make sure your project's SASS compiler is configured to look in the node_modules directory.
 
+#### Import CSS
+
+We do offer a pre-compiled CSS version if your project doesn't use SCSS.
+
+```html
+<link rel="stylesheet" href="../../node_modules/@torq-design/typography/torq-typography.css">
+```
+Or 
+```css
+@import "../../node_modules/@torq-design/typography/torq-typography.css";
+```
+
 #### Import Font
 
 Import our default font in your root HTML file.
@@ -65,15 +77,24 @@ Using any of the HTML tags listed in the table above will automatically apply th
 
 #### Font Profile CSS Classes
 
-Each font profile also has an accompanying CSS class.
+Each font profile has an accompanying CSS class.
 
 ```html
 <div class="torq-typ--section-header">This is also a section header.</div>
 ```
 
+#### SCSS Mixins
+
+An SCSS mixin can also be used to apply the various font profiles. Use the same names from the css classes.
+```scss
+@import @torq-design/typography/mixins;
+
+.custom-section-header {
+  @include torq-typ(section-header);
+}
+```
 
 ## Font Weights
-
 
 | Weight     | Value | CSS Class             |
 | :--------: | :---: | :-------------------: |
@@ -88,3 +109,9 @@ Adjust font weights using the available CSS classes.
 ```html
 <div class="weight--extra-bold">This is some extra bold text.</div>
 ```
+
+## Acknowledgements
+This component is a modified version of Google's Material Design for Web typography component.
+
+* [Github](https://github.com/material-components/material-components-web/tree/master/packages/mdc-typography)
+* [License (MIT)](https://github.com/material-components/material-components-web/blob/master/LICENSE)

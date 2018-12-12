@@ -19,37 +19,71 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 */
-
-@import "./variables";
-@import "./mixins";
-
 .torq-typ {
-  @include torq-typ-base;
-}
+  font-family: "Heebo", sans-serif; }
 
 /*================================================================================
  Standard Torq Typography Rules
 ================================================================================*/
-@each $style in map-keys($torq-typ-styles) {
-  $style-map: map-get($map: $torq-typ-styles, $key: $style);
-  .torq-typ--#{$style} {
-    @include torq-typ($style);
-  }
-  $tag-list: map-get($map: $style-map, $key: tags);
-  @each $tag in $tag-list {
-    #{$tag} {
-      @extend .torq-typ--#{$style};
-    }
-  }
-}
+.torq-typ--h1, h1 {
+  font-size: 50px;
+  font-weight: 400; }
+
+.torq-typ--h2, h2 {
+  font-size: 38px;
+  font-weight: 400; }
+
+.torq-typ--page-header, h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0; }
+
+.torq-typ--section-header, h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px; }
+
+.torq-typ--title1, h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px; }
+
+.torq-typ--title2, h6 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 26px; }
+
+.torq-typ--body1, body, p, button {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 26px; }
+
+.torq-typ--body2 {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 26px; }
+
+.torq-typ--chart-title {
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0.13px; }
 
 /*================================================================================
  Font Weight Classes
 ================================================================================*/
+.weight--light {
+  font-weight: 300 !important; }
 
-@each $weight in map-keys($torq-typ-font-weight-values) {
-  $value: map-get($map: $torq-typ-font-weight-values, $key: $weight);
-  .weight--#{$weight} {
-    font-weight: $value!important;
-  }
-}
+.weight--regular {
+  font-weight: 400 !important; }
+
+.weight--medium {
+  font-weight: 500 !important; }
+
+.weight--bold {
+  font-weight: 700 !important; }
+
+.weight--extra-bold {
+  font-weight: 800 !important; }
