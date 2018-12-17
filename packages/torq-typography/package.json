@@ -4,7 +4,7 @@
   "description": "Base typography for Torq Design",
   "main": "torq-typography.scss",
   "scripts": {
-    "build-css": "node-sass torq-typography.scss torq-typography.css"
+    "build-css": "node-sass torq-typography.scss css/torq-typography.css"
   },
   "repository": {
     "type": "git",

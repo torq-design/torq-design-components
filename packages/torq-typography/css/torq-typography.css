@@ -26,53 +26,56 @@ THE SOFTWARE.
  Standard Torq Typography Rules
 ================================================================================*/
 .torq-typ--h1, h1 {
-  font-size: 50px;
+  font-size: 3.125rem;
   font-weight: 400; }
 
 .torq-typ--h2, h2 {
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 400; }
 
 .torq-typ--page-header, h3 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 400;
-  line-height: 35px;
+  line-height: 2.1875rem;
   letter-spacing: 0; }
 
 .torq-typ--section-header, h4 {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  line-height: 29px; }
+  line-height: 1.8125rem; }
 
 .torq-typ--title1, h5 {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
-  line-height: 27px; }
+  line-height: 1.6875rem; }
 
 .torq-typ--title2, h6 {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 700;
-  line-height: 26px; }
+  line-height: 1.625rem; }
 
 .torq-typ--body1, body, p, button {
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-weight: 500;
-  line-height: 26px; }
+  line-height: 1.625rem; }
 
 .torq-typ--body2 {
-  font-size: 13px;
+  font-size: 0.9375rem;
   font-weight: 300;
-  line-height: 26px; }
+  line-height: 1.625rem; }
 
 .torq-typ--chart-title {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 500;
-  line-height: 40px;
-  letter-spacing: 0.13px; }
+  line-height: 2.5rem;
+  letter-spacing: 0.008rem; }
 
 /*================================================================================
  Font Weight Classes
 ================================================================================*/
+.weight--thin {
+  font-weight: 100 !important; }
+
 .weight--light {
   font-weight: 300 !important; }
 
@@ -85,5 +88,5 @@ THE SOFTWARE.
 .weight--bold {
   font-weight: 700 !important; }
 
-.weight--extra-bold {
-  font-weight: 800 !important; }
+.weight--black {
+  font-weight: 900 !important; }
