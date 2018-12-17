@@ -28,66 +28,67 @@ $torq-typ-base: (
 );
 
 $torq-typ-font-weight-values: (
+  thin: 100,
   light: 300,
   regular: 400,
   medium: 500,
   bold: 700,
-  extra-bold: 800
+  black: 900
 ) !default;
 
 $torq-typ-styles: (
   h1: (
-    font-size: 50px,
+    font-size: 3.125rem,
     font-weight: map-get($torq-typ-font-weight-values, regular),
     tags: (h1)
   ),
   h2: (
-    font-size: 38px,
+    font-size: 2.375rem,
     font-weight: map-get($torq-typ-font-weight-values, regular),
     tags: (h2)
   ),
   page-header: (
-    font-size: 24px,
+    font-size: 1.5rem,
     font-weight: map-get($torq-typ-font-weight-values, regular),
-    line-height: 35px,
+    line-height: 2.1875rem,
     letter-spacing: 0,
     tags: (h3)
   ),
   section-header: (
-    font-size: 20px,
+    font-size: 1.25rem,
     font-weight: map-get($torq-typ-font-weight-values, bold),
-    line-height: 29px,
+    line-height: 1.8125rem,
     tags: (h4)
   ),
   title1: (
-    font-size: 18px,
+    font-size: 1.125rem,
     font-weight: map-get($torq-typ-font-weight-values, bold),
-    line-height: 27px,
+    line-height: 1.6875rem,
     tags: (h5)
   ),
   title2: (
-    font-size: 15px,
+    font-size: 0.9375rem,
     font-weight: map-get($torq-typ-font-weight-values, bold),
-    line-height: 26px,
+    line-height: 1.625rem,
     tags: (h6)
   ),
   body1: (
-    font-size: 15px,
+    font-size: 0.9375rem,
     font-weight: map-get($torq-typ-font-weight-values, medium),
-    line-height: 26px,
+    line-height: 1.625rem,
     tags: (body, p, button)
   ),
   body2: (
-    font-size: 13px,
+    font-size: 0.9375rem,
     font-weight: map-get($torq-typ-font-weight-values, light),
-    line-height: 26px,
+    line-height: 1.625rem,
     tags: ()
   ),
   chart-title: (
-    font-size: 13px,
+    font-size: 0.8125rem,
     font-weight: map-get($torq-typ-font-weight-values, medium),
-    line-height: 40px,
-    letter-spacing: 0.13px,
+    line-height: 2.5rem,
+    letter-spacing: 0.008rem,
     tags: ()
   )
 )

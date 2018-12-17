@@ -42,20 +42,23 @@ Or
 
 #### Import Font
 
-Import our default font in your root HTML file.
+Import our default font (Roboto) in your root HTML file.
 
 ```html
-<link href="https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 ```
 
 Or, import the font in your base styling file.
 
 ```css
-@import url('https://fonts.googleapis.com/css?family=Heebo:300,400,500,700,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
 ```
 
+If you need weights beyond those used in our font profiles, feel free to customize the import [here.](https://fonts.google.com/specimen/Roboto?selection.family=Roboto:300,400,500,700)
+You can also add the italic variants for different weights if that's necessary.
+
 #### Apply Base Font
-Use our base css class to make Heebo the default font.
+Use our base css class to make Roboto the default font.
 ```html
 <body class="torq-typ">
 ```
@@ -67,7 +70,7 @@ body {
 ```
 
 ## Font Profiles
-| SCALE CATEGORY | HTML TAG                    | CSS CLASS                    | USAGE               | WEIGHT  | SIZE | TRACKING | LINE HEIGHT |
+| SCALE CATEGORY | HTML TAG                    | CSS CLASS                    | USAGE               | WEIGHT  |SIZE\*|TRACKING\*|LINE HEIGHT\*|
 | :------------: | :-------------------------  | :--------------------------  | :-----------------  | :-----: | :--: | :------: | :---------: |
 | H1             | `<h1>`                      | `torq-typ--h1`               | Widgets             | Regular | 50px | Auto     | Auto        |
 | H2             | `<h2>`                      | `torq-typ--h2`               | Widgets             | Regular | 38px | Auto     | Auto        |
@@ -78,6 +81,7 @@ body {
 | Body 1         | `<body>`, `<p>`, `<button>` | `torq-typ--body1`            | Body Copy & Buttons | Medium  | 15px | 0        | 26px        |
 | Body 2         |                             | `torq-typ--body2`            | Body Copy & Buttons | Light   | 15px | 0        | 26px        |
 | Charts         |                             | `torq-typ--chart-title`      | Chart Titles        | Medium  | 13px | 0.13px   | 40px        |
+\*_Sizes are actually implemented using rem, assuming a base font size of 16px._
 
 #### Tag Defaults
 
@@ -109,16 +113,18 @@ A Sass mixin can also be used to apply the various font profiles. Use the same n
 
 | Weight     | Value | CSS Class             |
 | :--------: | :---: | :-------------------: |
+| Thin\*\*   | 100   | `weight--thin`        |
 | Light      | 300   | `weight--light`       |
 | Regular    | 400   | `weight--regular`     |
 | Medium     | 500   | `weight--medium`      |
 | Bold       | 700   | `weight--bold`        |
-| Extra Bold | 800   | `weight--extra-bold`  |
+| Black\*\*  | 900   | `weight--black`       |
+\*\*_Not normally used in Torq Design, but available in Roboto font with a customized import_
 
-Adjust font weights using the available CSS classes.
+#### Adjust font weights using the available CSS classes.
 
 ```html
-<div class="weight--extra-bold">This is some extra bold text.</div>
+<div class="weight--bold">This is some bold text.</div>
 ```
 
 ## Acknowledgements
