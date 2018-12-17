@@ -81,6 +81,7 @@ body {
 | Body 1         | `<body>`, `<p>`, `<button>` | `torq-typ--body1`            | Body Copy & Buttons | Medium  | 15px | 0        | 26px        |
 | Body 2         |                             | `torq-typ--body2`            | Body Copy & Buttons | Light   | 15px | 0        | 26px        |
 | Charts         |                             | `torq-typ--chart-title`      | Chart Titles        | Medium  | 13px | 0.13px   | 40px        |
+
 \*_Sizes are actually implemented using rem, assuming a base font size of 16px._
 
 #### Tag Defaults
@@ -119,6 +120,7 @@ A Sass mixin can also be used to apply the various font profiles. Use the same n
 | Medium     | 500   | `weight--medium`      |
 | Bold       | 700   | `weight--bold`        |
 | Black\*\*  | 900   | `weight--black`       |
+
 \*\*_Not normally used in Torq Design, but available in Roboto font with a customized import_
 
 #### Adjust font weights using the available CSS classes.
