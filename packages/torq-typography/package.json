@@ -1,6 +1,6 @@
 {
   "name": "@torq-design/typography",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Base typography for Torq Design",
   "main": "torq-typography.scss",
   "scripts": {
