@@ -70,6 +70,17 @@ THE SOFTWARE.
   line-height: 2.5rem;
   letter-spacing: 0.008rem; }
 
+.torq-typ--small-text {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  letter-spacing: 0.008rem; }
+
+.torq-typ--branding {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 2.5rem; }
+
 /*================================================================================
  Font Weight Classes
 ================================================================================*/

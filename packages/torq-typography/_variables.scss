@@ -90,5 +90,18 @@ $torq-typ-styles: (
     line-height: 2.5rem,
     letter-spacing: 0.008rem,
     tags: ()
+  ),
+  small-text: (
+    font-size: 0.8125rem,
+    font-weight: map-get($torq-typ-font-weight-values, medium),
+    line-height: 2.5rem,
+    letter-spacing: 0.008rem,
+    tags: ()
+  ),
+  branding: (
+    font-size: 0.9375rem,
+    font-weight: map-get($torq-typ-font-weight-values, bold),
+    line-height: 2.5rem,
+    tags: ()
   )
 )
