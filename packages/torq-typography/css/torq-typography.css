@@ -54,7 +54,7 @@ THE SOFTWARE.
   font-weight: 700;
   line-height: 1.625rem; }
 
-.torq-typ--body1, body, p, button {
+.torq-typ--body1, p, button {
   font-size: 0.9375rem;
   font-weight: 500;
   line-height: 1.625rem; }
@@ -79,7 +79,8 @@ THE SOFTWARE.
 .torq-typ--branding {
   font-size: 0.9375rem;
   font-weight: 700;
-  line-height: 2.5rem; }
+  line-height: 2.5rem;
+  font-family: "Roboto Slab", serif; }
 
 /*================================================================================
  Font Weight Classes

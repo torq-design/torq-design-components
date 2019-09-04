@@ -80,7 +80,7 @@ body {
 | H4             | `<h4>`                      | `torq-typ--section-header`   | Card Header         | Bold    | 20px | Auto     | 29px        | Roboto        |
 | H5             | `<h5>`                      | `torq-typ--title1`           | Title 1             | Medium  | 18px | Auto     | 27px        | Roboto        |
 | H6             | `<h6>`                      | `torq-typ--title2`           | Title 2             | Bold    | 15px | Auto     | 26px        | Roboto        |
-| Body 1         | `<body>`, `<p>`, `<button>` | `torq-typ--body1`            | Body Copy & Buttons | Medium  | 15px | Auto     | 26px        | Roboto        |
+| Body 1         | `<p>`, `<button>` | `torq-typ--body1`            | Body Copy & Buttons | Medium  | 15px | Auto     | 26px        | Roboto        |
 | Body 2         | `<span>`, `<p>`, `<div>`    | `torq-typ--body2`            | Paragraph Text      | Regular | 15px | Auto     | 26px        | Roboto        |
 | Charts         | `<table>`, `<th>`           | `torq-typ--chart-title`      | Chart Titles        | Medium  | 13px | 0.13px   | 15px        | Roboto        |
 | Notes          | `<p>`, `<span>`, `<div>`    | `torq-typ--small-text`       | Small text          | Medium  | 13px | 0.13px   | 15px        | Roboto        |
